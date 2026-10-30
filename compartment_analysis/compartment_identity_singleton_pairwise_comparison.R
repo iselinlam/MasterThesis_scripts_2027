@@ -49,7 +49,7 @@ species_names <- tribble(
 
 
 # ---- input file:
-singleton_combines <- read_tsv("singleton_combined.tsv)
+singleton_combined <- read_tsv("singleton_combined.tsv")
 
 species_per_tissue <- singleton_combined |>
   distinct(tissue, spc) |>
